@@ -1,6 +1,6 @@
 ---
 
-## 1) **Infra: AWS EKS + ArgoCD Bootstrap**
+## 1) **Infra: AWS EKS + ArgoCD Bootstrap/README.md**
 
 This repository contains **Terraform code** to provision the entire AWS infrastructure for the WeatherApp DevOps project.  
 It creates the networking layer (VPC, subnets, NAT, ALB), IAM roles, and an EKS cluster.  
