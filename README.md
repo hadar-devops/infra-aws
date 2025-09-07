@@ -15,3 +15,17 @@ terraform apply
 
 ⚠️ Important: At the end of terraform apply, note down the VPC ID from the Terraform output.
 You will need it when running the deploy.sh script from the GitOps repo.
+```
+Project Flow
+
+Run terraform apply in this repo to create:
+
+VPC, subnets, route tables, NAT, ALB
+
+IAM roles and policies
+
+EKS cluster
+
+Copy the VPC ID from the output.
+
+Move to the gitops-argocd
