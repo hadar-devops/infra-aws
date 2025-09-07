@@ -3,7 +3,7 @@
 This repository contains **Terraform code** to provision the entire AWS infrastructure for the WeatherApp DevOps project.  
 It creates the networking layer (VPC, subnets, NAT, ALB), IAM roles, and an EKS cluster.  
 
-Once applied, you can install ArgoCD by switching to the [gitops-argocd-apps](https://github.com/your-org/gitops-argocd) repo.
+Once applied, you can install ArgoCD by switching to the [gitops-argocd](https://github.com/your-org/gitops-argocd) repo.
 
 ---
 
